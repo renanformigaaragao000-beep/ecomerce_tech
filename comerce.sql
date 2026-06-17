@@ -24,6 +24,7 @@ CREATE TABLE vendas (
 INSERT INTO produtos (nome, categoria, preco) VALUES
 ('Mouse Gamer', 'Periféricos', 150.00),
 ('Teclado Mecânico', 'Periféricos', 300.00),
+('Teclado normal', 'Periféricos', 300.00),
 ('Monitor 24"', 'Monitores', 900.00);
 
 INSERT INTO vendas (id_produto, produto_nome_legacy, quantidade, valor_unitario, data_venda) 
